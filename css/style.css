@@ -60,9 +60,9 @@ a {
 }
 
 .hero-image {
-    border: 1px solid white;
-    height: auto;
-    width: 800px;
+    border-radius: 10px;
+    height: 400px;
+    width: auto;
 }
 
 .hero-button {
@@ -71,4 +71,125 @@ a {
     padding: 10px 24px;
     border-radius: 10px;
     width: 60px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.rand-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    padding: 10px 240px;
+}
+
+.rand-info-heading {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.rand-items-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+}
+
+.rand-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.rand-img {
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.rand-items p {
+    color: #1F2937;
+    font-size: 18px;
+    width: 180px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 550px;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 0;
+    margin-top: 100px;
+}
+
+.quote-author {
+    align-self: flex-end;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 100px;
+    margin-right: 20px;
+    margin-top: 0;
+}
+
+.call-to-action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 240px;
+}
+
+.content-box {
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    padding: 50px 120px;
+}
+
+.content-box p {
+    margin: 0;
+}
+
+.call-to-action-button {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    font-weight: bold;
+    padding: 10px 24px;
+    border-radius: 10px;
+    width: 60px;
+}
+
+.call-to-action-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
